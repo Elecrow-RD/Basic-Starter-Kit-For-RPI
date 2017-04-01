@@ -1,6 +1,8 @@
 /*
  * Created by keen
  * Modified by keen 
+ * Compiling: gcc -Wall -o blink blink.c -lwiringPi
+ * Run: sudo ./blink
  * Date: 28/03/2017
  */
 
@@ -22,5 +24,4 @@ int main(void){
     delay (1000);
   }
 }
-/*******************************************/
 
